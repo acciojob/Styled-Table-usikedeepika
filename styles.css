@@ -1,1 +1,41 @@
 /* your code */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.stats-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+ th {
+  background-color: #004aad;
+  color: #ffffff;
+}
+
+   th,td {
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+ tr:nth-child(even) {
+  background-color: #e7f3ff;
+}
+ tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.stats-table td {
+  font-size: 14px;
+}
+
+.stats-table th {
+  font-size: 16px;
+  text-transform: uppercase;
+}
